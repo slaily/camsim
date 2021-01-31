@@ -1,5 +1,5 @@
 import numpy as np
 
 
-def generate_black_frame():
-    return np.zeros((512, 512, 3), np.uint8)
+def generate_black_frame(height, width):
+    return np.zeros((height, width, 3), np.uint8)
